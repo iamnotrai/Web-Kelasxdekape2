@@ -180,7 +180,7 @@ section {
 }
 .container-footer{
   display: flex;
-  height: 15vh;
+  height: 20vh;
   align-items: center;
   justify-content: center;
   background-color: #70460F;
@@ -199,4 +199,5 @@ section {
 .ray{
   text-decoration: none;
   color: white;
+
 }
