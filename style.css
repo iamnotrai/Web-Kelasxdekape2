@@ -77,7 +77,18 @@ section {
   transform: translateY(0);
   font-size: 1cm;
 }
-
+.click-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.click{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  padding: 20px;
+}
 .card-container {
   display: flex;
   flex-wrap: wrap;
@@ -149,5 +160,9 @@ section {
 .h1-footer{
   font-size: 15px;
   font-family: sans-serif;
+  color: white;
+}
+.ray{
+  text-decoration: none;
   color: white;
 }
