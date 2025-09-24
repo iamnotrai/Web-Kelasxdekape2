@@ -28,7 +28,7 @@ body {
   padding-right: 30px;
 }
 .li-navbar{
-  font-family: sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: white;
   padding: 5px;
   margin: 5px;
@@ -76,6 +76,7 @@ section {
   opacity: 1;
   transform: translateY(0);
   font-size: 1cm;
+  font-family: 'Lora', serif;
 }
 .click-container{
   display: flex;
@@ -86,7 +87,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 20px;
+  margin: 5px;
   padding: 20px;
 }
 .card-container {
@@ -166,5 +167,3 @@ section {
   text-decoration: none;
   color: white;
 }
-
-
