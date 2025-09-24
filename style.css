@@ -86,8 +86,8 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 30px;
-  padding: 30px;
+  margin: 20px;
+  padding: 20px;
 }
 .card-container {
   display: flex;
@@ -166,4 +166,5 @@ section {
   text-decoration: none;
   color: white;
 }
+
 
