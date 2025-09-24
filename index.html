@@ -1,0 +1,204 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>X DKV 2</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- navbar -->
+  <nav class="navbar">
+    <h1 class="logo">X DKV 2 Class</h1>
+    <ul class="ul-navbar">
+      <li class="li-navbar"><a href="#home">Home</a></li>
+      <li class="li-navbar"><a href="#pengurus">Struktur Kelas</a></li>
+      <li class="li-navbar"><a href="#anggota">Anggota Kelas</a></li>
+      <li class="li-navbar"><a href="#sosmed">Sosial Media</a></li>
+    </ul>
+  </nav>
+
+  <!-- home -->
+  <section id="home" class="intro">
+    <h2 class="animate">Welcome to our Website</h2>
+    <p class="animate">Kelas X DKV 2</p>
+  </section>
+
+  <!-- pengurus kelas -->
+  <section id="pengurus">
+    <h2 class="animate">Struktur Kelas</h2>
+    <div class="card-container">
+      <div class="card" onclick="showModal('Wali Kelas','Pak Jay','wali.jpg')">
+        Wali Kelas
+      </div>
+      <div class="card" onclick="showModal('Ketua Kelas','Reza','ketua.jpg')">
+        Ketua Kelas
+      </div>
+      <div class="card" onclick="showModal('Wakil Ketua','Marsanda','wakil.jpg')">
+        Wakil Ketua
+      </div>
+      <div class="card" onclick="showModal('Bendahara','Erfan dan Eristha','bendahara.jpg')">
+        Bendahara 
+      </div>
+      <div class="card" onclick="showModal('Sekretaris ','Naila dan Dita','sekre.jpg')">
+        Sekretaris 
+      </div>
+    </div>
+  </section>
+
+  <!-- Anggota Kelas -->
+  <section id="anggota">
+    <h2 class="animate">Anggota Kelas</h2>
+    <div class="card-container">
+      <div class="card">
+        Muchlis
+      </div>
+      <div class="card">
+        Andre
+      </div>
+      <div class="card">
+        Belinda
+      </div>
+      <div class="card">
+        Cahya
+      </div>
+      <div class="card">
+        Cantika
+      </div>
+      <div class="card">
+        Desti
+      </div>
+      <div class="card">
+        Dita
+      </div>
+      <div class="card">
+        Ega
+      </div>
+      <div class="card">
+        Enjelica
+      </div>
+      <div class="card">
+        Eristha
+      </div>
+      <div class="card">
+        Evelin
+      </div>
+      <div class="card">
+        Reza
+      </div>
+      <div class="card">
+        Fadli Hardianto
+      </div>
+      <div class="card">
+        Fadli Dandi
+      </div>
+      <div class="card">
+        Faisal
+      </div>
+      <div class="card">
+        Fathyya
+      </div>
+      <div class="card">
+        Hafifah
+      </div>
+      <div class="card">
+        Keyla
+      </div>
+      <div class="card">
+        Khairunissa
+      </div>
+      <div class="card">
+        Rafi
+      </div>
+      <div class="card">
+        Suhandi
+      </div>
+      <div class="card">
+        Marshanda
+      </div>
+      <div class="card">
+        Dias
+      </div>
+      <div class="card">
+        Aji
+      </div>
+      <div class="card">
+        Erfan
+      </div>
+      <div class="card">
+        Raditya
+      </div>
+      <div class="card">
+        Nadine
+      </div>
+      <div class="card">
+        Naila
+      </div>
+      <div class="card">
+        Nazela
+      </div>
+      <div class="card">
+        Putri Ari
+      </div>
+      <div class="card">
+        Putri Oktaviani
+      </div>
+      <div class="card">
+        Queen
+      </div>
+      <div class="card">
+        Rayi
+      </div>
+      <div class="card">
+        Rinjani
+      </div>
+      <div class="card">
+        Shandy
+      </div>
+      <div class="card">
+        Syaqira
+      </div>
+      <div class="card">
+        Fathir
+      </div>
+      <div class="card">
+        Tiara
+      </div>
+      <div class="card">
+        Titania
+      </div>
+      <div class="card">
+        Trisna
+      </div>
+      <div class="card">
+        Yazrile
+      </div>
+    </div>
+  </section>
+
+  <!-- sosmed -->
+  <section id="sosmed">
+    <h2 class="animate">Sosial Media</h2>
+    <a href="https://www.instagram.com/xdekavie2/" target="_blank">
+      <img src="instagram.webp" alt="Instagram" class="sosmed-logo">
+    </a>
+  </section>
+
+  <!-- popup -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span onclick="closeModal()" class="close">&times;</span>
+      <h3 id="modal-title"></h3>
+      <img id="modal-img" src="" alt="foto">
+      <p id="modal-text"></p>
+    </div>
+  </div>
+  <div class="container-footer">
+      <ul class="ul-footer">
+        <h1 class="h1-footer">Made with Love for X DKV 2</h1>
+        <h1 class="h1-footer">by Rayi Ramdahan :P</h1>
+      </ul>
+  </div>
+<script src="script.js"></script>
+</body>
+</html>

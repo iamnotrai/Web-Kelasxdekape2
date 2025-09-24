@@ -1,0 +1,153 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #3e2723; /* coklat batik */
+  color: white;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 8%;
+  background: #5d4037;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 15px;
+  z-index: 10;
+}
+.navbar .logo {
+  font-size: 1.5rem;
+  padding-left: 30px;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding-right: 30px;
+}
+.li-navbar{
+  font-family: sans-serif;
+  color: white;
+  padding: 5px;
+  margin: 5px;
+  white-space: nowarp;
+}
+.li-navbar:hover{
+  background-color: #35231f;
+  transition: .3s ease-in-out;
+  transition-delay: .1s;
+  border-radius: 6px;
+}
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+#home{
+  display: flex;
+  height: 100vh;
+  background: url(bg.webp)no-repeat fixed center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+section {
+  padding: 100px 20px;
+  text-align: center;
+  min-height: 100vh;
+}
+#welcome .overlay {
+  background: rgba(0,0,0,0.4);
+  padding: 40px 60px;
+  border-radius: 15px;
+  backdrop-filter: blur(6px);
+}
+.animate {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 1s ease;
+}
+.animate.show {
+  opacity: 1;
+  transform: translateY(0);
+  font-size: 1cm;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.card {
+  background: #6d4c41;
+  padding: 20px;
+  border-radius: 10px;
+  width: 180px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0; left: 0; width: 100%; height: 100%;
+  background: rgba(0,0,0,0.7);
+  justify-content: center;
+  align-items: center;
+}
+.modal-content {
+  background: #4e342e;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  max-width: 400px;
+}
+.modal-content img {
+  width: 150px;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+.close {
+  float: right;
+  cursor: pointer;
+  font-size: 24px;
+  color: white;
+}
+
+.sosmed-logo {
+  width: 300px;
+  height: 300px;
+  gap: 40px; 
+  margin-bottom: 50px;
+  transition: transform 0.3s;
+}
+.sosmed-logo:hover {
+  transform: scale(1.1);
+}
+.container-footer{
+  display: flex;
+  height: 15vh;
+  align-items: center;
+  justify-content: center;
+  background-color: #35231f;
+}
+.ul-footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.h1-footer{
+  font-size: 15px;
+  font-family: sans-serif;
+  color: white;
+}
