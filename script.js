@@ -17,7 +17,6 @@ window.addEventListener('load', () => {
   }
 });
 
-// reset animasi
 const navLinks = document.querySelectorAll('.navbar a');
 navLinks.forEach(link => {
   link.addEventListener('click', (e) => {
@@ -25,13 +24,12 @@ navLinks.forEach(link => {
     const targetEl = document.querySelector(targetId);
 
     if (targetEl) {
-      // section animasi
       const animEls = targetEl.querySelectorAll('.animate');
       animEls.forEach(el => {
-        el.classList.remove('show'); // ra
+        el.classList.remove('show');
         setTimeout(() => {
-          el.classList.add('show'); // tu
-        }, 100); // delay
+          el.classList.add('show');
+        }, 100);
       });
     }
   });
